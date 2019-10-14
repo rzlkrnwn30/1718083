@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/bg">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/bgwarna"/>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginRight="155dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/image"/>
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:text="Mochamad Rizal Kurniawan"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_light"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_place_black_24dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="260dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Malang"
+                android:layout_marginTop="258dp"
+                android:layout_marginLeft="175dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:drawablePadding="20dp"
+                android:text="POST"
+                android:textColor="#52c234"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="58"
+                android:textSize="20sp"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="66dp"
+                android:textStyle="bold"
+                android:textColor="#52c234"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="FOLLOWERS"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginRight="40dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#52c234"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="999 M"
+                android:textSize="20sp"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="175dp"
+                android:textStyle="bold"
+                android:textColor="#52c234"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="FOLLOWING"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginRight="40dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#52c234"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="316dp"
+                android:textStyle="bold"
+                android:textColor="#52c234"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_marginTop="50dp"
+            android:background="#4052c234">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Me"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write, I like to think, I like to dream, I like to talk, I like to listen."
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="90dp"
+                android:text="Follow"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/button"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
