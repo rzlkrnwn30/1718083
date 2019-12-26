@@ -74,7 +74,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="40dp"
                 android:drawablePadding="20dp"
-                android:text="@string/post"
+                android:text="POST"
                 android:textColor="#52c234"
                 android:textSize="15sp"
                 android:textStyle="bold" />
@@ -91,7 +91,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="@string/followers"
+                android:text="FOLLOWERS"
                 android:drawablePadding="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="160dp"
@@ -113,7 +113,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="@string/following"
+                android:text="FOLLOWING"
                 android:drawablePadding="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="285dp"
@@ -142,7 +142,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/about"
+                android:text="About Me"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="15dp"
@@ -151,7 +151,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/describe"
+                android:text="I'am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write, I like to think, I like to dream, I like to talk, I like to listen."
                 android:layout_marginTop="45dp"
                 android:layout_marginLeft="15dp"
                 android:textSize="20sp"
@@ -160,9 +160,9 @@
             <Button
                 android:layout_width="250dp"
                 android:layout_height="60dp"
-                android:layout_marginTop="230dp"
+                android:layout_marginTop="200dp"
                 android:layout_marginLeft="90dp"
-                android:text="@string/follow"
+                android:text="Follow"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:background="@drawable/button"/>

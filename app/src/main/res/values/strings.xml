@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Tugas_profile</string>
+    <string name="app_name">MyProfile</string>
+    <string name="following">FOLLOWING</string>
+    <string name="followers">FOLLOWERS</string>
+    <string name="post">POST</string>
+    <string name="about">About Me</string>
+    <string name="describe">I Am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write, I like to think, I like to dream, I like to talk, I like to listen.</string>
+    <string name="follow">FOLLOW</string>
 </resources>

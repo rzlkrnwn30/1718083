@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Profilku</string>
+    <string name="following">MEGIKUTI</string>
+    <string name="followers">PENGIKUT</string>
+    <string name="post">POS</string>
+    <string name="about">Tentang saya</string>
+    <string name="describe">Saya adalah orang yang positif tentang setiap aspek kehidupan. Ada banyak hal yang saya suka lakukan, lihat, dan alami. Saya suka membaca, saya suka menulis, saya suka berpikir, saya suka bermimpi, saya suka berbicara, saya suka mendengarkan.</string>
+    <string name="follow">IKUTI</string>
+</resources>
